@@ -108,7 +108,7 @@ while play_game:
         print("     You win!🎉")
         print(f"The word was {word}.")
     if "_" not in display or lives == 0:
-        print("     You loss!😢")
+        print("     You lose!😢")
         print(f"The word was {chosen_word}.")
         play_again = input("Play again (y/n): ").lower()
         if play_again == "y":
