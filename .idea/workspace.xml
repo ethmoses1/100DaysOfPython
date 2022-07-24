@@ -2,6 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e69b2da5-e82d-4a13-87a7-3a82da86a369" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/day7/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/.idea/day1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/hangman_art.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/hangman_words.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/project.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +41,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
+  <component name="RunManager" selected="Python.project (1)">
     <configuration name="ex2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100DayPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,7 +105,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="project (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100DayPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -103,11 +113,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day7" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day5/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day7/project.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,19 +148,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.main" />
       <item itemvalue="Python.ex2" />
       <item itemvalue="Python.ex3" />
       <item itemvalue="Python.project" />
       <item itemvalue="Python.main (1)" />
+      <item itemvalue="Python.project (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.project (1)" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.project" />
         <item itemvalue="Python.ex3" />
         <item itemvalue="Python.ex2" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
