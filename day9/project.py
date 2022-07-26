@@ -1,9 +1,6 @@
 from art import logo
 import os
 
-
-# Then, whenever you want to clear the screen, just use this clear function as:
-
 continue_bid = True
 bidding = {}
 print(logo)
