@@ -62,11 +62,14 @@ def make_coffee(selected_coffee):
     resources['coffee'] -= coffee
     return MENU[selected_coffee]['cost']
 
+
 def add():
     ingredient = input("What would you like to add?: ")
     amount = int(input("How much would you like to add? "))
     resources[ingredient] += amount
     print(f"      {amount}ml of {ingredient} successfully added ")
+
+
 coffee_on = True
 while coffee_on:
     user_choice = input("   What would you like? (espresso/latte/cappuccino): ").lower()
@@ -92,5 +95,6 @@ while coffee_on:
                 print(f"Here is your {user_choice} ☕️. Enjoy!")
             else:
                 print(checked_ingredients)
+
 
 
