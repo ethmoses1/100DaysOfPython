@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e69b2da5-e82d-4a13-87a7-3a82da86a369" name="Default Changelist" comment="Day11 complete">
-      <change afterPath="$PROJECT_DIR$/day24/mail_merge/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day24/snake_game/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day25/weather_data.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day12/project.py" beforeDir="false" afterPath="$PROJECT_DIR$/day12/project.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14/project.py" beforeDir="false" afterPath="$PROJECT_DIR$/day14/project.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day15/project.py" beforeDir="false" afterPath="$PROJECT_DIR$/day15/project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day25/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day25/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,13 +23,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Project.color": "236140",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Project.color&quot;: &quot;236140&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
   }
-}]]></component>
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="100DayPython" is-module-sdk="true">
@@ -60,11 +57,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day24/mail_merge" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day25/US_states" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day24/mail_merge/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day25/US_states/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
