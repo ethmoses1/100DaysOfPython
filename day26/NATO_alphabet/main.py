@@ -13,4 +13,5 @@ new_dictionary = {row.letter:row.code for (index, row) in data.iterrows()}
 
 word = input("Enter a word: ").upper()
 list = [new_dictionary[letter] for letter in word]
+
 print(list)
