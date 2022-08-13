@@ -14,9 +14,18 @@ SHORT_BREAK_MIN = 5
 LONG_BREAK_MIN = 20
 reps = 0
 timer = None
+running = False
 mixer.init()
 
 # ---------------------------- TIMER RESET ------------------------------- # 
+def reset_timer():
+    window.after_cancel(timer)
+    canvas.itemconfig(timer_text, text="00:00")
+    top_label.config(text="Timer")
+    check_marks.config(text="")
+    start["state"] = ACTIVE
+    global reps
+    reps = 0
 
 # ---------------------------- TIMER MECHANISM ------------------------------- #
 def play():
@@ -25,8 +34,12 @@ def play():
     mixer.music.play()
     
 def start_timer():
+    global running
+    start["state"] = DISABLED
+    
     global reps
     reps += 1
+    running = True
     
     work_sec = WORK_MIN*60
     short_break_sec = SHORT_BREAK_MIN*60
@@ -42,21 +55,13 @@ def start_timer():
         count_down(work_sec)
         top_label.config(text="Work", fg=GREEN)
         
-def reset_timer():
-    window.after_cancel(timer)
-    canvas.itemconfig(timer_text, text="00:00")
-    top_label.config(text="Timer")
-    check_marks.config(text="")
-    global reps
-    reps = 0
+
      
     
 # ---------------------------- COUNTDOWN MECHANISM ------------------------------- # 
-
 import time
-
-# ---------------------------- UI SETUP ------------------------------- #
 def count_down(count):
+    global running
     count_min = math.floor(count / 60)
     count_sec = count % 60
     
@@ -74,8 +79,9 @@ def count_down(count):
         for _ in range(math.floor(reps/2)):
             mark += "✓"
         check_marks.config(text=mark)
-            
+
         
+# ---------------------------- UI SETUP ------------------------------- #
         
 window = Tk()
 window.title('Pomodoro')
