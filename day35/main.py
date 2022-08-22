@@ -19,7 +19,6 @@ data = response.json()
 weather_for_next_12_hours = data["hourly"][:12]
 will_rain = False
 for hourly_data in weather_for_next_12_hours:
-    print(hourly_data['weather'])
     if int(hourly_data['weather'][0]['id']) < 700:
         will_rain = True
         
